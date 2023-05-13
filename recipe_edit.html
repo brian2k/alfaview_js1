@@ -1,0 +1,38 @@
+<div>
+    
+    <fieldset>
+        <legend>Titel:</legend>
+        <div>
+            <input type="text" readonly="true" class="input_inactive" id="recipe_name"></input>
+            <div class="edit_link">bearbeiten</div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Zutaten:</legend>
+        <table id="ingredients"></table>
+        <div id="addIngredient">
+            <p><b>Neue Zutat hinzufügen:</b></p>
+            <input type="text" id="input_amount" placeholder="Menge/Einheit">
+            <input type="text" id="input_ingredient" placeholder="Zutat">
+            <button type="submit" class="save" id="save_ingredient">Zutat hinzufügen/ändern</button>    
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Notiz/Hinweise:</legend>
+        <div class="notes">
+            <textarea readonly="true" class="input_inactive" id="recipe_notes"></textarea>
+            <div class="edit_link">bearbeiten</div>
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Zubereitung:</legend>        
+        <textarea readonly="true" class="input_inactive" id="cooking"></textarea>
+        <div class="edit_link">bearbeiten</div>
+    </fieldset>
+    </div>
+    <button type="submit" class="delete" id="btn_delete_recipe">Rezept löschen</button>
+    <button type="submit" class="close" id="close">Schließen</button>
+</div>
