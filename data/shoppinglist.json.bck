@@ -1,0 +1,59 @@
+{
+    "shoppinglist": [
+        {
+            "role": "Küche",
+            "groceries": [
+                {
+                    "item": "Mehl 2KG Beutel",
+                    "amount": 2
+                },
+                {
+                    "item": "Gurken",
+                    "amount": 4
+                },
+                {
+                    "item": "Messer zum filletieren",
+                    "amount": 1
+                },
+                {
+                    "item": "Tupperbox 5l",
+                    "amount": 8
+                }
+            ]
+        },
+        {
+            "role": "Bar",
+            "groceries": [
+                {
+                    "item": "Orangen Netz",
+                    "amount": 1
+                },
+                {
+                    "item": "Gurken",
+                    "amount": 4
+                },
+                {
+                    "item": "Gin",
+                    "amount": 4
+                },
+                {
+                    "item": "Vodka Greygoose",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "role": "Bar im Hotel",
+            "groceries": [
+                {
+                    "item": "Tonic Water Kiste 0.2l",
+                    "amount": 2
+                },
+                {
+                    "item": "Shaker Metall",
+                    "amount": 2
+                }
+            ]
+        }
+    ]
+}

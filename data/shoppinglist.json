@@ -1,0 +1,43 @@
+{
+    "shoppinglist": [
+        {
+            "role": "Küche",
+            "groceries": [
+                {
+                    "item": "Mehl 2KG Beutel",
+                    "amount": 2
+                },
+                {
+                    "item": "Neues Item",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "role": "Bar",
+            "groceries": [
+                {
+                    "item": "Orangen Netz",
+                    "amount": 1
+                },
+                {
+                    "item": "Shaker aus Metall",
+                    "amount": "2"
+                },
+                {
+                    "item": "Stirrer für Gäste",
+                    "amount": "40"
+                }
+            ]
+        },
+        {
+            "role": "Bar im Hotel",
+            "groceries": [
+                {
+                    "item": "Tonic Water Kiste 0.2l",
+                    "amount": 2
+                }
+            ]
+        }
+    ]
+}

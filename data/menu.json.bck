@@ -1,0 +1,79 @@
+{
+    "recipes": [
+        {
+            "category": 0,
+            "flag": false,
+            "recipes": [
+                {
+                    "flag": false,
+                    "ingredients": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": false,
+                    "notes": false
+                },
+                {
+                    "flag": false,
+                    "ingredients": [
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": false,
+                    "notes": false
+                }
+            ]
+        },
+        {
+            "category": 1,
+            "flag": false,
+            "recipes": [
+                {
+                    "flag": false,
+                    "ingredients": [
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": false,
+                    "notes": false
+                },
+                {
+                    "flag": false,
+                    "ingredients": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": false,
+                    "notes": false
+                }
+            ]
+        },
+        {
+            "category": 2,
+            "flag": false,
+            "recipes": [
+                {
+                    "flag": false,
+                    "ingredients": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": false,
+                    "notes": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "recipes": [
+        {
+            "category": 0,
+            "flag": true,
+            "recipes": [
+                {
+                    "flag": false,
+                    "ingredients": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": "Eier rühren, dann Butter und Creme Fraiche dazu. Nach belieben salzen und pfeffern.\n\nuighuh",
+                    "notes": "Pfanne nicht so heiß machen; Die Petersilie erst am Ende als Garnitur"
+                },
+                {
+                    "flag": true,
+                    "ingredients": [
+                        false,
+                        false,
+                        false
+                    ],
+                    "infotext": "Eier rühren, dann Butter dazu. Nach belieben salzen und pfeffern.",
+                    "notes": "Pfanne nicht so heiß machen"
+                }
+            ]
+        },
+        {
+            "category": 1,
+            "flag": false,
+            "recipes": [
+                {
+                    "flag": true,
+                    "ingredients": [
+                        true,
+                        true,
+                        false,
+                        false
+                    ],
+                    "infotext": "LEckerer Gin Tonic",
+                    "notes": ""
+                },
+                {
+                    "flag": true,
+                    "ingredients": [
+                        true,
+                        true,
+                        true,
+                        false,
+                        false
+                    ],
+                    "infotext": "",
+                    "notes": ""
+                },
+                {
+                    "flag": true,
+                    "ingredients": [
+                        true,
+                        true,
+                        true,
+                        false
+                    ],
+                    "infotext": "151",
+                    "notes": "555"
+                }
+            ]
+        },
+        {
+            "category": 2,
+            "flag": true,
+            "recipes": [
+                {
+                    "flag": true,
+                    "ingredients": [
+                        true,
+                        true,
+                        true,
+                        false,
+                        false
+                    ],
+                    "infotext": "",
+                    "notes": ""
+                }
+            ]
+        }
+    ]
+}

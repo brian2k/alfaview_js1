@@ -1,0 +1,169 @@
+{
+    "recipes": [
+        {
+            "category": 0,
+            "recipes": [
+                {
+                    "name": "Rührei ala Ramsey",
+                    "ingredients": [
+                        [
+                            "3",
+                            "Eier"
+                        ],
+                        [
+                            "80g",
+                            "Butter"
+                        ],
+                        [
+                            "80g ",
+                            "Creme Fraiche"
+                        ],
+                        [
+                            "Handvoll",
+                            "Petersilie"
+                        ],
+                        [
+                            "Prise",
+                            "Salz"
+                        ],
+                        [
+                            "n.B.",
+                            "Pfeffer"
+                        ]
+                    ],
+                    "cooking": "Eier rühren, dann Butter und Creme Fraiche dazu. Nach belieben salzen und pfeffern.\n\nuighuh",
+                    "notes": "Pfanne nicht so heiß machen; Die Petersilie erst am Ende als Garnitur"
+                },
+                {
+                    "name": "Rührei normal",
+                    "ingredients": [
+                        [
+                            "3",
+                            "Eier"
+                        ],
+                        [
+                            "100g",
+                            "Butter"
+                        ],
+                        [
+                            "n.B.",
+                            "Salz und Pfeffer"
+                        ]
+                    ],
+                    "cooking": "Eier rühren, dann Butter dazu. Nach belieben salzen und pfeffern.",
+                    "notes": "Pfanne nicht so heiß machen"
+                }
+            ]
+        },
+        {
+            "category": 1,
+            "recipes": [
+                {
+                    "name": "Gin Tonic",
+                    "ingredients": [
+                        [
+                            "4cl",
+                            "Gin"
+                        ],
+                        [
+                            "Filler",
+                            "Tonic"
+                        ],
+                        [
+                            "",
+                            "Limette/Zitrone"
+                        ],
+                        [
+                            "asd",
+                            "asd"
+                        ]
+                    ],
+                    "cooking": "Glas mit Eiswürfel füllen. Gin rein und mit Tonic auffüllen. Glas garnieren.",
+                    "notes": "Je nach Gin garnieren (Engl. Limette/Alles anders Zitrone (Glas wie im Bild)"
+                },
+                {
+                    "name": "Tequila Sunrise",
+                    "ingredients": [
+                        [
+                            "4cl",
+                            "Tequila"
+                        ],
+                        [
+                            "1cl",
+                            "Grenadine Sirup"
+                        ],
+                        [
+                            "Filler",
+                            "Orangensaft"
+                        ],
+                        [
+                            "",
+                            "Eiswürfel"
+                        ],
+                        [
+                            "Garnitur",
+                            "Orangenscheibe"
+                        ]
+                    ],
+                    "cooking": "Glas mit Eiswürfel füllen. Tequila rein und mit Orangensaft auffüllen. Grenadine drüber und Glas garnieren.",
+                    "notes": ""
+                },
+                {
+                    "name": "White Russian",
+                    "ingredients": [
+                        [
+                            "4cl",
+                            "Wodka"
+                        ],
+                        [
+                            "2cl",
+                            "Kahlua"
+                        ],
+                        [
+                            "4cl",
+                            "Sahne"
+                        ],
+                        [
+                            "2",
+                            " Kaffebohne o. gemahlener Kaffee"
+                        ]
+                    ],
+                    "cooking": "Schichten - mit Bohne dekorieren",
+                    "notes": "Martini Glas;\nZum Mahlen bitte die kl. Mühle nutzen"
+                }
+            ]
+        },
+        {
+            "category": 2,
+            "recipes": [
+                {
+                    "name": "Tequila Sunrise",
+                    "ingredients": [
+                        [
+                            "4cl",
+                            "Tequila"
+                        ],
+                        [
+                            "1cl",
+                            "Grenadine Sirup"
+                        ],
+                        [
+                            "Filler",
+                            "Orangensaft"
+                        ],
+                        [
+                            "",
+                            "Eiswürfel"
+                        ],
+                        [
+                            "1x",
+                            "orangenscheibe"
+                        ]
+                    ],
+                    "cooking": "Glas mit Eiswürfel füllen. Tequila rein und mit Orangensaft auffüllen. Grenadine drüber und Glas garnieren.",
+                    "notes": ""
+                }
+            ]
+        }
+    ]
+}

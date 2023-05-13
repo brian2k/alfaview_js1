@@ -1,0 +1,323 @@
+:root {
+  --primary-color: #d22248;
+  --secondary-color: #ffb429;
+  --dark-contrast: #060e15;
+  --light-contrast: #fff;
+  --dark-grey: #b2aeae;
+  --light-grey: #e8e8e8;
+  --alarm-color: #ff3939;
+  --background: #c9c8c1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,textarea {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+.wrapper {height: 100%;
+    background: var(--background);
+    color:  var(--dark-contrast);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.inputform{
+  display: flex;
+}
+
+#delete_recipe{
+  color: var(--alarm-color);
+}
+
+#btn_delete_recipe{
+  background-color: var(--alarm-color);
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.notes{
+  padding: 10px 0;
+}
+
+p#recipe_notes{
+  background-color: var(--dark-grey);
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.edit_link{
+  cursor: pointer;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 14px;
+}
+
+.edit_link:before{
+  content: "[";
+}
+
+.edit_link::after{
+  content: "]";
+}
+
+  ul{
+      margin: 20px 0px;
+      text-align: left;
+      list-style-type: square;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5em;
+      letter-spacing: 0.04em;
+      list-style-type:none;
+  }
+
+  ul li{
+      position: relative;
+
+  }
+
+  ul.shoppinglist{
+    background-color: #efe589;
+    padding: 20px;
+  }
+
+p{
+  padding: 10px 0;
+}
+
+  #amount{
+      width: 60px;
+  }
+
+  #ingredients{
+    width: 100%;
+    margin-top: 10px;
+  }
+  #ingredients td{
+    height: 25px;
+  }
+  #ingredients td:nth-child(1){
+    text-align: right;
+  }
+  #ingredients td.left_align{
+    text-align: left;
+  }
+  #ingredients td:nth-child(2){
+    padding-left: 10px;
+  }
+  #ingredients td:nth-last-child(2){
+    padding: 0 5px;
+  }
+
+select, input:not(.checkbox) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 1px solid var(--primary-color);
+    background-color: var(--light-grey);
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: var(--dark-contrast);
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+
+
+input.input_inactive,
+.input_inactive{
+  background: none;
+  border: 1px solid;
+}
+
+fieldset{
+  padding: 10px;
+  height: auto;
+}
+
+input#amount{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+  .crossed{
+      text-decoration: line-through;
+  }
+
+.checkbox_label{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox_label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox {    
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+
+/****************/
+/* Tables */
+/****************/
+
+table{
+  width: 100%;
+  text-align: center;
+}
+
+
+table .category_name{
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+table .recipe_name{
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox_label:hover input ~ .checkbox {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox_label input:checked ~ .checkbox {
+  background-color: #2196F3;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the  when checked */
+.checkbox_label input:checked ~ .checkbox:after {
+  display: block;
+}
+
+/* Style the checkbox/indicator */
+.checkbox_label .checkbox:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.content{
+  text-align: left;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: var(--primary-color);
+    border: 0;
+    padding: 10px 15px;
+    margin: 5px 0;
+    color: var(--light-contrast);
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+}
+
+button.edit, button.cancel{
+  background: none;
+  color: var(--dark-contrast);
+  border: 1px solid var(--dark-contrast);
+}
+
+textarea,
+#cooking{
+  width: 100%;
+  min-height: 100px;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+fieldset textarea{
+  min-height: auto;
+  margin: 0;
+}
+
+textarea{
+  background: var(--dark-grey);
+  border: none;
+  padding: 8px;
+}
+
+button.save{
+  background-color: var(--secondary-color);
+}
+
+input#input_amount,
+input#input_ingredient{
+  float: left;
+  width: calc(60% - 5px);
+}
+
+input#input_amount{
+  margin-right: 5px;
+  width: 40%;
+}
